@@ -1,0 +1,182 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('components/_navigator.css');
+@import url('components/_pills.css');
+@import url('components/_link-button.css');
+@import url('components/_gallery.css');
+
+
+.s-wrapper {
+  display: flex;
+  height: 100vh;
+  flex-flow: row nowrap;
+}
+
+.s-wrapper video {
+  position: fixed;
+  width: 100%;
+}
+
+.s-wrapper .s-left-column {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding-right: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.s-wrapper .s-main-content {
+  width: 100%;
+  height: 100%;
+  padding-left: 130px;
+  position: relative;
+}
+
+.s-wrapper .s-main-content__top {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.s-wrapper .s-main-content__bottom {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+
+
+.s-li img {
+  width: 340px;
+}
+
+.s-li-2 img {
+  width: 340px;
+}
+
+.s-li-3 img {
+  height: 30vh;
+  width: 330px;
+}
+
+
+.s-wrapper .s-main-content .s-logo {
+  display: flex;
+  gap: 4rem;
+}
+
+.s-wrapper .s-main-content .s-logo-spider3-3 {
+  display: flex;
+  gap: 35rem;
+}
+
+.s-wrapper .s-main-content .s-logo-spider3 img {
+  width: 900px;
+}
+
+.s-wrapper .s-main-content .s-logo-spider3-3 img {
+  width: 400px;
+}
+
+.s-wrapper .s-main-content .s-logo-spider3-1 {
+  display: flex;
+  gap: 35rem;
+}
+
+.s-wrapper .s-main-content .s-logo-spider3-1 img {
+  width: 400px;
+}
+
+.bottom-voltar {
+  margin-top: 4rem;
+  padding: 10px;
+  opacity: .7;
+  border-radius: 30px;
+  border: solid white;
+  height: 4vh;
+  background-color: var(--primary-color);
+}
+
+.bottom-voltar:hover {
+  opacity: 1;
+}
+
+.s-wrapper .s-main-content .s-logo img {
+  width: 900px;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-logo-spider3 {
+  display: flex;
+  gap: 4rem;
+}
+
+.s-wrapper .s-main-content .s-logo-spider3-1 img {
+  margin-top: 10px;
+  width: 400px;
+}
+
+.s-wrapper .s-main-content .s-logo-spider2-1 {
+  display: flex;
+  gap: 4rem;
+}
+
+.s-wrapper .s-main-content .s-logo-spider2-1 img {
+  width: 900px;
+}
+
+.s-wrapper .s-main-content__top .s-description {
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 70%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description-spider3-1 {
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 75%;
+  font-size: 14px;
+  padding: 15px;
+  margin-top: 1.11rem;
+  border-radius: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description_text P {
+
+  color: white;
+  line-height: 170%;
+}
+
+.s-wrapper .s-main-content__top .s-description__text__spider3 {
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 80%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description .pills {
+  margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-links {
+  padding: 20px;
+  padding-left: 0;
+
+
+}
+
+.s-wrapper .s-main-content .s-links ul {
+  display: flex;
+  flex-direction: row;
+}
