@@ -1,6 +1,10 @@
 @import url('/assets/css/reset.css');
 @import url('/assets/css/global.css');
 
+@import url('http://fonts.cdnfonts.com/css/homoarakhn');
+
+
+
 body {
   background-color: var(--primary-color);
 }
@@ -26,6 +30,26 @@ body::before {
   position: relative;
 }
 
+.s-mobile-menu-icon {
+
+  display: none;
+}
+
+
+
+/*.s-menu-burguer {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  visibility: hidden;
+}*/
+
+.s-mobile-menu {
+  display: none;
+}
+
+
+
 .s-menu__item {
   display: inline-block;
   text-transform: uppercase;
@@ -50,7 +74,7 @@ body::before {
 .s-card {
   border: 0.5rem solid white;
   width: 100%;
-  height: 70vh;
+  height: 65vh;
   position: absolute;
   transition: filter .5s ease-in-out;
 
@@ -186,4 +210,114 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
   width: calc(100vw / 3 - 10%);
   transform-style: preserve-3d;
   transition: transform 0.4s ease-in;
+}
+
+@media screen and (max-width: 730px) {
+  .s-menu__item {
+    display: none;
+  }
+
+  .s-mobile-menu-icon {
+
+    display: block;
+    padding: 20px 0;
+  }
+
+  .s-header-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+
+  }
+
+  .s-header-mobile h2 {
+    font-size: 20px;
+    font-family: 'Homoarakhn', sans-serif;
+  }
+
+  .s-menu-burguer {
+    width: 30px;
+  }
+
+
+  .s-mobile-menu-icon .logo-mobile {
+    vertical-align: middle;
+    width: 40px;
+    margin: 0 .4rem
+  }
+
+  .s-mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .s-mobile-menu ul {
+    margin-top: 3rem;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .s-mobile-menu ul li {
+    margin-top: 1rem;
+    border-bottom: 1px solid white;
+  }
+
+  .s-mobile-menu {
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    top: 118px;
+    right: 0px;
+    height: 40%;
+    z-index: 1000;
+    background-color: var(--primary-color);
+  }
+
+
+  .s-mobile-menu .s-menu__item {
+    display: block;
+    padding-top: 1.2rem;
+
+  }
+
+  .open {
+    display: block;
+  }
+
+  .s-container {
+    padding-top: 40px;
+  }
+
+  .s-card {
+    width: 110px;
+    height: 45vh;
+
+  }
+
+  .s-card__title {
+    font-size: 15px;
+  }
+
+
+
+
+
+
+
+
+  /*.s-menu-mobile .s-logo-mobile p {
+ font-family: 'Homoarakhn', sans-serif;
+
+  }*/
+
+
+  /*.s-menu-burguer {
+    width: 40px;
+
+    margin-left: 3rem;
+    vertical-align: middle;
+  }*/
 }

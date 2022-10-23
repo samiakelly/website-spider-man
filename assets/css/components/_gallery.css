@@ -20,3 +20,14 @@
   border: solid 6px white;
   border-radius: 15px;
 }
+
+@media screen and (max-width: 730px) {
+  .gallery ul {
+    display: grid;
+
+  }
+
+  .gallery ul li {
+    margin: .30rem .30rem;
+  }
+}
