@@ -21,7 +21,9 @@
   border-radius: 15px;
 }
 
-@media screen and (max-width: 730px) {
+
+
+@media screen and (max-width: 1040px) {
   .gallery ul {
     display: grid;
 

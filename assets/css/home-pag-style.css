@@ -274,6 +274,7 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
     height: 40%;
     z-index: 1000;
     background-color: var(--primary-color);
+    opacity: .9;
   }
 
 

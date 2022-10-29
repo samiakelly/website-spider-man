@@ -109,7 +109,7 @@ body {
   background-color: var(--primary-color);
 }
 
-.bottom-voltar-mobile {
+.s-link-bottom-voltar-mobile {
   display: none;
 }
 
@@ -188,37 +188,41 @@ body {
   flex-direction: row;
 }
 
-@media screen and (max-width: 730px) {
-  body {
-    background-color: var(--primary-color);
-  }
+@media screen and (max-width: 1040px) {
+
 
   .s-wrapper {
-    width: 100%;
+
+    height: 50vh;
 
   }
 
+  .s-link-bottom-voltar {
+    display: none;
+  }
 
 
-  .s-wrapper video {
-    position: absolute;
-    height: 50%;
-
+  .s-link-bottom-voltar-mobile {
+    display: block;
   }
 
   .s-wrapper .s-left-column {
     padding-top: 100px;
     width: 50px;
     height: 75%;
-
   }
 
 
   .s-wrapper .s-main-content {
     width: 100%;
-    height: 100%;
+    height: auto;
     padding-left: 20px;
-    position: relative;
+
+  }
+
+  .s-wrapper .s-main-content__top {
+    height: auto;
+
   }
 
   .s-wrapper .s-main-content .s-logo {
@@ -263,15 +267,9 @@ body {
     gap: 1rem;
   }
 
-  .s-link-bottom-voltar {
 
-    display: none;
-  }
 
-  .bottom-voltar-mobile {
 
-    display: block;
-  }
 
   .s-wrapper .s-main-content .s-logo-spider3-3 {
     gap: 5rem;
@@ -286,7 +284,7 @@ body {
   }
 
   .s-wrapper .s-main-content__top .s-description {
-    margin-top: 14rem;
+    margin-top: 17rem;
     margin-left: 2.50rem;
     margin-right: 2.50rem;
   }
@@ -319,32 +317,32 @@ body {
   }
 
   .s-links {
-    position: absolute;
-    top: 200px;
-    right: 5px;
+    margin-left: 2.50rem;
   }
 
   .s-wrapper .s-main-content__bottom {
     text-align: center;
-    margin-top: 18rem;
-    height: 100%;
+    height: auto;
+
+
   }
 
   .s-wrapper .s-main-content__bottom-mobile2 {
-    margin-top: 12rem;
+    height: auto;
   }
 
 
   .s-wrapper .s-main-content__bottom-mobile {
-    margin-top: 8rem;
+
+    height: auto;
   }
 
   .s-wrapper .s-main-content__bottom3-1 {
-    margin-top: 25rem;
+    height: auto;
   }
 
   .s-wrapper .s-main-content__bottom-spider3 {
-    margin-top: 31rem;
+    height: auto;
   }
 
   .s-wrapper .s-main-content__bottom .gallery img {
