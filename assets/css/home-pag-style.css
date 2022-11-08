@@ -1,12 +1,13 @@
 @import url('/assets/css/reset.css');
 @import url('/assets/css/global.css');
 
-@import url('http://fonts.cdnfonts.com/css/homoarakhn');
+/*@import url('http://fonts.cdnfonts.com/css/homoarakhn');*/
 
 
 
 body {
   background-color: var(--primary-color);
+  --webkit-font-smoothing: antialiased;
 }
 
 body::before {
@@ -233,7 +234,7 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
 
   .s-header-mobile h2 {
     font-size: 20px;
-    font-family: 'Homoarakhn', sans-serif;
+    font-family: 'homoarakhn-regular', sans-serif;
   }
 
   .s-menu-burguer {
